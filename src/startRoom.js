@@ -30,7 +30,7 @@ const initRoom = (token) => {
     function roomCallbacks(room) { // "roomCallbacks" examples start from here. // look at examples/roomConfigs/method1 folder for related examples.
         room.onAfterRoomLink = (roomLink) => {
             console.log("room link:", roomLink);
-            showRoomLink(link);
+            showRoomLink(roomLink);
         };
     }
 };
