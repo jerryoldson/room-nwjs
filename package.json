@@ -1,0 +1,13 @@
+{
+    "name": "create_room",
+    "main": "src/index.js",
+    "nodejs": true,
+    "node-remote": "*://*/*",
+    "window": {
+        "title": "room creator"
+    },
+    "chromium-args": "--enable-logging=stderr",
+    "dependencies": {
+        "node-haxball": "^1.2.0"
+    }
+}
